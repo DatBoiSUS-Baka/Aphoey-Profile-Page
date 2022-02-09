@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Colors
+    #F3F3F3
+    #000
+    #A7A7A7
+*/
+
+/* Fonts 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+*/
+
+:root {
+    --black: #000;
+    --gray: #A7A7A7;
+    --white: #f3f3f3;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--gray);
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--gray);
+    padding: 20px 40px;
+    border-bottom: 2px solid var(--black);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 35%; 
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 24px;
+}
+
+.name {
+    display: flex;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: var(--black);
+    padding-left: 8px
+}
+
+.header {
+    margin-top: 30px;
+    margin-left: 48px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-align: justify;
+    padding: 10px 3em;
+    color: var(--black);
+}
