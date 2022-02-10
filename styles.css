@@ -57,16 +57,33 @@ nav a {
     padding-left: 8px
 }
 
-.header {
-    margin-top: 30px;
-    margin-left: 48px;
+.jumbotron {
+    background-image: url(images/bleach-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 640px;
+    opacity: 0.5;
 }
+
+.header-contents {
+    width: 50%;
+    background-color: var(--white);
+    margin-left: 50px;
+}
+
+/* .header {
+    padding-top: 30px;
+    margin-left: 48px;
+} */
 
 .description {
     display: flex;
     justify-content: center;
-    width: 50%;
+    /* width: 50%; */
     text-align: justify;
-    padding: 10px 3em;
+    padding: 0 1em;
     color: var(--black);
 }
+
+/* tablet */
+/* @media screen (max-width: 768px) */
