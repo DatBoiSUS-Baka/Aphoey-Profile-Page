@@ -58,31 +58,32 @@ nav a {
 }
 
 .jumbotron {
-    background-image: url(images/bleach-header.jpg);
+    background-image: url(images/ink\ abstract\ by\ FREEJECT\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 640px;
-    opacity: 0.5;
 }
 
 .header-contents {
     width: 50%;
-    background-color: var(--white);
     margin-left: 50px;
+    padding-left: 50px;
 }
 
-/* .header {
-    padding-top: 30px;
-    margin-left: 48px;
-} */
+.header {
+    padding-top: 50px;
+    font-size: 60px;
+    color: var(--white);
+}
 
 .description {
     display: flex;
     justify-content: center;
-    /* width: 50%; */
     text-align: justify;
-    padding: 0 1em;
-    color: var(--black);
+    padding-top: 10px;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
 }
 
 /* tablet */
