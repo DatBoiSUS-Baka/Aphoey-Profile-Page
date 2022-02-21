@@ -3,11 +3,6 @@
     padding: 0;
 }
 
-/* Colors
-    #F3F3F3
-    #000
-    #A7A7A7
-*/
 
 /* Fonts 
     font-family: 'Montserrat', sans-serif;
@@ -80,10 +75,29 @@ nav a {
     display: flex;
     justify-content: center;
     text-align: justify;
-    padding-top: 10px;
     color: var(--white);
     font-size: 20px;
     font-weight: 700;
+}
+
+.about-me-contents {
+    display: flex;
+    align-items: center;
+}
+
+#rounded-image-shell {
+    width: 80%;
+}
+
+#apuy-rounded-image {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+#about-me-article {
+    width: 50%;
+    /* text-align: center;
+    align-items: center; */
 }
 
 /* tablet */
