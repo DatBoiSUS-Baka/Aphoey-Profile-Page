@@ -57,6 +57,7 @@ nav a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 640px;
+    border-bottom: 10px solid var(--black);
 }
 
 .header-contents {
@@ -83,6 +84,9 @@ nav a {
 .about-me-contents {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding-top: 3rem;
+    margin-left: 5rem;
 }
 
 #rounded-image-shell {
@@ -94,10 +98,12 @@ nav a {
     border-radius: 50%;
 }
 
-#about-me-article {
-    width: 50%;
-    /* text-align: center;
-    align-items: center; */
+#about-me-article {    
+    width: 75%;
+    text-align: center;
+    margin-left: 5rem;
+    border: 10px double var(--black);
+    background-color: var(--white);
 }
 
 /* tablet */
